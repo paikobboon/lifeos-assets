@@ -13,5 +13,6 @@ private LifeOS tree instead.
 
 | File | Used by |
 | --- | --- |
-| `theo.png` | Theo's Hark notification avatar and the artifact-library app icon (512×512). A statue head in profile, dithered — a single head still reads at 40px, where a wider scene turns to mush. |
+| `theo.png` | Theo's Hark notification avatar and the artifact-library app icon (512×512). Starburst-headed figure between columns, engraved/hatched — cropped tight on the head because the starburst is the part that survives at 40px. |
+| `theo-wide.png` | The same figure with more coat and floor, for surfaces with room to breathe. |
 | `lucky.png` | Lucky's Hark notification avatar (512×512) — the illustration she already uses on LINE, resized only. A mascot drawing carrying no personal information, which is the only reason it can live in a public repo. |

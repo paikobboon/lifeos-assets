@@ -16,3 +16,15 @@ private LifeOS tree instead.
 | `theo.png` | Theo's Hark notification avatar and the artifact-library app icon (512×512). Starburst-headed figure between columns, engraved/hatched — cropped tight on the head because the starburst is the part that survives at 40px. |
 | `theo-wide.png` | The same figure with more coat and floor, for surfaces with room to breathe. |
 | `lucky.png` | Lucky's Hark notification avatar (512×512) — the illustration she already uses on LINE, resized only. A mascot drawing carrying no personal information, which is the only reason it can live in a public repo. |
+
+## Versioning
+
+Avatar files are **versioned by filename**, not mutated in place. iOS and the Hark
+app both cache notification images by URL, so overwriting `theo.png` leaves clients
+serving a stale picture with no way to invalidate it. A new filename cannot be
+served stale. Bump the suffix; leave the old file in place.
+
+| Current | Superseded |
+| --- | --- |
+| `theo-v2.png` | `theo.png` (statue-head crop, then starburst — both cached by clients) |
+| `lucky-v2.png` | `lucky.png` |

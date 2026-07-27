@@ -15,7 +15,8 @@ private LifeOS tree instead.
 | --- | --- |
 | `theo.png` | Theo's Hark notification avatar and the artifact-library app icon (512×512). Starburst-headed figure between columns, engraved/hatched — cropped tight on the head because the starburst is the part that survives at 40px. |
 | `theo-wide.png` | The same figure with more coat and floor, for surfaces with room to breathe. |
-| `mini-v2.png` | The Mini service's avatar (512×512) — the column base cropped from the *same* illustration as Theo's, so the set reads as one world rather than three unrelated pictures. A base on its plinth is also the right idea for the always-on node. |
+| `mini-v3.png` | The Mini service's avatar (512×512) — the actual Mac mini, on the family navy. Pai's call: the literal object beats a metaphor for a machine-health sender, because you should know which machine is talking without decoding a symbol. Sourced from the Mac mini product icon already present in macOS (`CoreTypes.bundle`). |
+| `mini-v2.png` | Superseded. Column base cropped from Theo's illustration — retired in place. |
 | `lucky.png` | Lucky's Hark notification avatar (512×512) — the illustration she already uses on LINE, resized only. A mascot drawing carrying no personal information, which is the only reason it can live in a public repo. |
 
 ## Versioning
@@ -29,4 +30,4 @@ served stale. Bump the suffix; leave the old file in place.
 | --- | --- |
 | `theo-v2.png` | `theo.png` (statue-head crop, then starburst — both cached by clients) |
 | `lucky-v2.png` | `lucky.png` |
-| `mini-v2.png` | — (new) |
+| `mini-v3.png` | `mini-v2.png` (column-base crop) |
